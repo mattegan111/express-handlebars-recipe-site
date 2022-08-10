@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mattegan111/express-handlebars-recipe-site#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   }
 }
