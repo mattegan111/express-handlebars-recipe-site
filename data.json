@@ -1,0 +1,12 @@
+{"recipies":[
+  { 
+    "name":"Sushi Rice",
+    "ingredients": ["rice"," vinegar"],
+    "level":"easy"
+  },
+  {
+    "name":"Instant Noodle",
+    "ingredients":["noodle","boiling water"],
+    "level":"easy"
+  }
+]}
