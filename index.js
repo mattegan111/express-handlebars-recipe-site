@@ -6,10 +6,10 @@ const port = 3000;
 //Loads the handlebars module
 const handlebars = require('express-handlebars')
 //Sets our app to use the handlebars engine
-app.set('view engine', 'handlebars')
+app.set('view engine', 'hbs')
 //Sets handlebars configurations (we will go through them later on)
-app.engine('handlebars', handlebars.engine({
-  layoutsDir: __dirname + '/views/layouts',
+app.engine('hbs', handlebars.engine({
+  extname: 'hbs'
 }))
 //Serves static files (we need it to import a css file)
 app.use(express.static('public'))
